@@ -25,5 +25,6 @@ variable "ip_restrictions" {
     ip_address  = optional(string) # Allow ip_address to be optional
     service_tag = optional(string)
   }))
-  default = []
+  description = "value"
+  default     = []
 }

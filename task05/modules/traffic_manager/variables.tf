@@ -19,4 +19,5 @@ variable "endpoints" {
     target   = string
     priority = number
   }))
+  description = "value"
 }
